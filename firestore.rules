@@ -1,0 +1,28 @@
+rules_version = '2';
+
+// Each to-do item belongs to exactly one user (field "ownerId"). These rules are enforced by
+// the Firestore SERVER, so another user can't read or change your items even with a modified app.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /todoitems/{itemId} {
+      // Creating: you may only create items owned by yourself.
+      allow create: if request.auth != null
+                    && request.resource.data.ownerId == request.auth.uid;
+
+      // Reading (get and queries) and deleting: only your own items.
+      allow read, delete: if request.auth != null
+                          && resource.data.ownerId == request.auth.uid;
+
+      // Updating: only your own items, and the owner can't be changed.
+      allow update: if request.auth != null
+                    && resource.data.ownerId == request.auth.uid
+                    && request.resource.data.ownerId == resource.data.ownerId;
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

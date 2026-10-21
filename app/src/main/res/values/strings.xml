@@ -1,0 +1,59 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">Make it So</string>
+
+    <!-- Error -->
+    <string name="generic_error">Something went wrong</string>
+    <string name="invalid_email">Invalid email format</string>
+    <string name="invalid_password">Passwords should have at least eight digits and include one digit, one lower case letter and one upper case letter</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="could_not_find_account">We couldn\'t find your account id at the moment, please try again later</string>
+    <string name="item_without_title">Title cannot be empty</string>
+
+    <!-- Authentication -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="sign_up_text">Don\’t have an account yet? \n Click here to sign up</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="sign_up_with_email">Sign up with email</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+
+    <!-- Home Screen -->
+    <string name="create_todo_list">Create a todo list</string>
+
+    <!-- Todo Lists Screen -->
+    <string name="create_todo_item">Create a todo item</string>
+
+    <!-- Todo Items Screen -->
+    <string name="title">Title</string>
+    <string name="flag">Flag</string>
+    <string name="priority">Priority</string>
+    <string name="edit_todo_item">Edit todo item</string>
+    <string name="delete_todo_item">Delete this todo item</string>
+
+    <!-- Profile Screen -->
+    <string name="profile">Profile</string>
+    <string name="sign_in_method">Sign-in method</string>
+    <string name="sign_in_method_email">Email and password</string>
+    <string name="sign_in_method_google">Google</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_display_name">Account name</string>
+    <string name="profile_user_id">User ID</string>
+    <string name="profile_email_verified">Email verified</string>
+    <string name="profile_linked_providers">Linked providers</string>
+    <string name="profile_created">Account created</string>
+    <string name="profile_last_sign_in">Last sign-in</string>
+    <string name="not_available">Not available</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_account">Delete Account</string>
+
+    <!-- Delete Account Dialog -->
+    <string name="delete_account_title">Delete account</string>
+    <string name="delete_account_description">Are you sure you want to delete your account? This action is irreversible.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>

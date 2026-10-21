@@ -1,0 +1,59 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">Make it So</string>
+
+    <!-- Error -->
+    <string name="generic_error">Что-то пошло не так</string>
+    <string name="invalid_email">Неверный формат почты</string>
+    <string name="invalid_password">Пароль должен содержать не менее 8 символов, включая цифру, строчную и заглавную латинские буквы</string>
+    <string name="passwords_do_not_match">Пароли не совпадают</string>
+    <string name="could_not_find_account">Не удалось найти ваш аккаунт, попробуйте позже</string>
+    <string name="item_without_title">Название не может быть пустым</string>
+
+    <!-- Authentication -->
+    <string name="sign_in_with_google">Войти через Google</string>
+    <string name="sign_in_with_email">Войти по почте</string>
+    <string name="sign_up_text">Ещё нет аккаунта? \n Нажмите здесь, чтобы зарегистрироваться</string>
+    <string name="sign_up_with_google">Зарегистрироваться через Google</string>
+    <string name="sign_up_with_email">Регистрация по почте</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+
+    <!-- Home Screen -->
+    <string name="create_todo_list">Создать список дел</string>
+
+    <!-- Todo Lists Screen -->
+    <string name="create_todo_item">Создать задачу</string>
+
+    <!-- Todo Items Screen -->
+    <string name="title">Название</string>
+    <string name="flag">Флаг</string>
+    <string name="priority">Приоритет</string>
+    <string name="edit_todo_item">Редактирование задачи</string>
+    <string name="delete_todo_item">Удалить эту задачу</string>
+
+    <!-- Profile Screen -->
+    <string name="profile">Профиль</string>
+    <string name="sign_in_method">Способ входа</string>
+    <string name="sign_in_method_email">Почта и пароль</string>
+    <string name="sign_in_method_google">Google</string>
+    <string name="profile_email">Почта</string>
+    <string name="profile_display_name">Имя аккаунта</string>
+    <string name="profile_user_id">ID пользователя</string>
+    <string name="profile_email_verified">Почта подтверждена</string>
+    <string name="profile_linked_providers">Привязанные способы входа</string>
+    <string name="profile_created">Аккаунт создан</string>
+    <string name="profile_last_sign_in">Последний вход</string>
+    <string name="not_available">Нет данных</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="sign_out">Выйти</string>
+    <string name="delete_account">Удалить аккаунт</string>
+
+    <!-- Delete Account Dialog -->
+    <string name="delete_account_title">Удаление аккаунта</string>
+    <string name="delete_account_description">Вы уверены, что хотите удалить аккаунт? Это действие необратимо.</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+</resources>
